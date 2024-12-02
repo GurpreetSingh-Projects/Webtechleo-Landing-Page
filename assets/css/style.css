@@ -8326,10 +8326,7 @@ img {
 .hex {
   position: relative;
   visibility: hidden;
-  outline: 1px solid transparent;
-  transition: all 0.5s;
-  backface-visibility: hidden;
-  will-change: transform;
+  box-shadow: 0px 0px 25px grey;
   transition: all 0.5s;
 }
 
