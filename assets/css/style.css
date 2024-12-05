@@ -6,6 +6,7 @@ body {
   line-height: 1.8;
   font-family: nunito sans, sans-serif;
   color: #6c6c6c;
+  overflow-x: hidden;
 }
 
 p {
@@ -473,7 +474,7 @@ img {
   color: #ff3900;
   position: relative;
   display: inline-block;
-  top: -2px;
+  top: -6px;
   line-height: 35px;
   border-radius: 50px;
   width: 35px;
@@ -6960,7 +6961,7 @@ img {
   top: 0;
   right: 0;
 }
-
+/* 
 .faq-accordion {
   max-width: 100%;
   margin-right: auto;
@@ -7034,7 +7035,7 @@ img {
 
 .faq-accordion .accordion .accordion-content.show {
   display: block;
-}
+} */
 
 .faq-contact-wrap {
   margin-bottom: 30px;
@@ -8407,6 +8408,9 @@ img {
   );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+.hexGrid li:hover {
+  transform: translate(20px, 0) !important;
+}
 
 @media (min-width: 1201px) {
   .hexgrid {
@@ -8475,4 +8479,10 @@ img {
   .hexgrid {
     font-size: 8px;
   }
+}
+.fa-paper-plane {
+  font-size: 15px !important;
+}
+.faq-row {
+  padding: 40px 200px;
 }
